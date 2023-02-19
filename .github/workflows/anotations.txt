@@ -1,4 +1,13 @@
+# Git Pull
 su - odoo16 -s /bin/bash;
+cd Apollo1;
+git pull;
+su;
+systemctl restart odoo16;
+
+#Clonar
+su - odoo16 -s /bin/bash;
+cd Apollo1;
 git clone https://github.com/cassio2586/Apollo1.git --depth 1 --branch develop --single-branch;
 su;
 systemctl restart odoo16;
