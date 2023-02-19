@@ -539,7 +539,8 @@ msgstr "Não Membros"
 msgid ""
 "Odoo helps you easily track all activities related to a member: \n"
 "                  Current Membership Status, Discussions and History of Membership, etc."
-msgstr ""
+msgstr "Apollo1 ajuda você a rastrear facilmente todas as atividades relacionadas a um membro: \n"
+" Status atual da associação, discussões e histórico da associação, etc."
 
 #. module: membership
 #: model:ir.model.fields.selection,name:membership.selection__membership_membership_line__state__old
