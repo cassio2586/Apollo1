@@ -1,0 +1,4 @@
+su - odoo16 -s /bin/bash;
+git clone https://github.com/cassio2586/Apollo1.git --depth 1 --branch develop --single-branch;
+su;
+systemctl restart odoo16;
